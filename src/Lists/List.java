@@ -6,6 +6,7 @@ package Lists;
 
 /**
  *
+
  * @author Gloriana
  */
 public interface List <T>{
@@ -14,4 +15,7 @@ public interface List <T>{
     
     public boolean remove(T t);
     
+    public T find(Object id);
+    
+    public void showAll();
 }
